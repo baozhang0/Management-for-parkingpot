@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="欢迎回来 "
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="116dp"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="47dp"
+        android:text="余额"
+        android:id="@+id/yue"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="227dp"
+        android:layout_toRightOf="@id/yue"
+        android:text="test"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/charge"
+        android:layout_width="204dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:text="充值"
+        android:textSize="25sp"
+        android:onClick="alert"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:text="退出登录"
+        android:background="#2196F3"
+        android:layout_marginBottom="0dp" />
+
+    <Button
+        android:id="@+id/QRcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="295dp"
+        android:background="#FFEB3B"
+        android:text="我的二维码"
+        android:textSize="25sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/QRcode"
+        android:id="@+id/iamgeQR"
+        />
+
+    <Button
+        android:id="@+id/to_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="313dp"
+        android:layout_marginTop="301dp"
+        android:text="预约车位-->" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="321dp"
+        android:layout_marginTop="447dp"
+        android:text="查看订单"
+        android:id="@+id/to_orderlist"/>
+
+</RelativeLayout>

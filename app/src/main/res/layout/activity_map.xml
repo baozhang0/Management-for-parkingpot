@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <TextView
+        android:id="@+id/yuyueshijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:text="请输入预约时间"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/yuyueshijian"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/year"
+        android:layout_toRightOf="@id/year"
+        android:text="年"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="31dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="212dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year"
+        android:layout_marginLeft="59dp"
+        android:layout_toRightOf="@id/year"
+        android:text="月"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/day"
+        android:layout_width="31dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="207dp"
+        android:layout_marginTop="212dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@id/year"
+        android:text="日"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/hour"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="212dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@id/year"
+        android:text="时"
+        android:textSize="22dp" />
+    <TextView
+        android:id="@+id/jieshushijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="请输入结束时间"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/year1"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/jieshushijian"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_alignTop="@id/year1"
+        android:layout_toRightOf="@id/year1"
+        android:text="年"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/month1"
+        android:layout_width="31dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="329dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year1"
+        android:layout_marginLeft="59dp"
+        android:layout_toRightOf="@id/year1"
+        android:text="月"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/day1"
+        android:layout_width="31dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="206dp"
+        android:layout_marginTop="330dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year1"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toRightOf="@id/year1"
+        android:text="日"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/hour1"
+        android:layout_width="34dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="331dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/year1"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@id/year1"
+        android:text="时"
+        android:textSize="22dp"
+        />
+
+    <TextView
+        android:id="@+id/shuruchepai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="388dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text="请输入你的车牌号" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chepai"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/shuruchepai"/>
+
+    <Button
+        android:id="@+id/to_yuyue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="476dp"
+        android:layout_centerHorizontal="true"
+        android:text="前往选择车位" />
+
+</RelativeLayout>
